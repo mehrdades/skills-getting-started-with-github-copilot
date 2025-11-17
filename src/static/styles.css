@@ -89,7 +89,7 @@ section h3 {
 }
 
 .participants-list {
-  list-style-position: inside;
+  list-style: none;
   padding-left: 0;
   margin: 0;
 }
@@ -98,13 +98,6 @@ section h3 {
   padding: 5px 0;
   color: #555;
   font-size: 14px;
-}
-
-.participants-list li:before {
-  content: "•";
-  color: #0066cc;
-  font-weight: bold;
-  margin-right: 8px;
 }
 
 .no-participants {
